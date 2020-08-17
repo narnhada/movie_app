@@ -1,5 +1,4 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 
 function Detail({ location, history }) {
   if (location.state === undefined) {
@@ -18,4 +17,4 @@ function Detail({ location, history }) {
   }
 }
 
-export default withRouter(Detail);
+export default Detail;
