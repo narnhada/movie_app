@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <Route path="/" component={Home} exact />
+      <Route path={["/", "/movie_app"]} component={Home} exact />
       <Route path="/about" component={About} />
       <Route path="/movie-detail" component={Detail} />
     </>
